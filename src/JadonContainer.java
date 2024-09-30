@@ -1,5 +1,7 @@
 public class JadonContainer <T>
 {
+    //Sarah McShea helped me with casting an Object as T[]
+
     //Attributes
     public T[] data;
     private int currentPosition;
@@ -119,10 +121,4 @@ public class JadonContainer <T>
         currentPosition = 0;
         data = (T[])new Object[0];
     }
-
-    //write a toString to print something interesting
-
-    //Clear array
-
-
 }
